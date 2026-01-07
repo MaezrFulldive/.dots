@@ -15,7 +15,7 @@ sudo pacman -S mako foot helix ttc-iosevka ttf-iosevkaterm-nerd rofi figlet
 
 ### Install
 ```
-# Freash install
+# Fresh install
 git clone --bare user@server:~/git/.dots.git ~/.dots
 alias dots='git --git-dir=$HOME/.dots --work-tree=$HOME'
 dots checkout
