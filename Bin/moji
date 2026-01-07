@@ -1,0 +1,17 @@
+# ~/bin/moji
+#!/usr/bin/env bash
+
+quotes=(
+    "(˵>ᗜ <˵)"
+    "(˶˘ ³˘)♡"
+    "(˶˃ᵕ˂˶)"
+    "◝(ᵔᗜ ᵔ)◜"
+    "(˶ᵔᵕᵔ˶)‹𝟹"
+    "₍^..^₎Ⳋ"
+)
+
+# Pick a random quote
+random_index=$((RANDOM % ${#quotes[@]}))
+# Output in purple
+echo -e "\e[35m${quotes[$random_index]}\e[0m"
+

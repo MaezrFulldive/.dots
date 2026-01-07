@@ -1,0 +1,24 @@
+theme = "monokai_soda"
+
+[editor]
+atomic-save = true
+
+line-number = "relative"
+mouse = false
+
+[editor.statusline]
+mode.normal = "N (˶˘ ³˘)♡"
+mode.insert = "I (˵>ᗜ <˵)"
+mode.select = "S ◝(ᵔᗜ ᵔ)◜"
+center = ["separator"]
+separator = "✝"
+
+
+[editor.cursor-shape]
+insert = "bar"
+
+#Git Integration
+[keys.normal]
+C-g = [":new", ":insert-output lazygit", ":buffer-close!", ":redraw"]
+C-n = [":sh ~/Bin/moji"]
+
