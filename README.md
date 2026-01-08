@@ -23,7 +23,7 @@ dots checkout
 
 ### #TODO
 - [ ] create a quickshell widgets thing
-- [ ] get mako set up for notifications
+- [X] get mako set up for notifications
 - [ ] replace rofi with tofi
 - [ ] finalize keyboard shortcuts
 - [ ] make startup sequence with keyboard

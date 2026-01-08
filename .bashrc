@@ -9,6 +9,10 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias hx='helix'
 
+alias localtime='date +%I:%M'
+
+alias tetris='tint'
+
 kaw() {
     local quotes=(
         "(˵>ᗜ <˵)"
