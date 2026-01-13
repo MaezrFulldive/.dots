@@ -13,6 +13,8 @@ alias localtime='date +%I:%M'
 
 alias tetris='tint'
 
+alias anime='curd -dub -rofi'
+
 kaw() {
     local quotes=(
         "(˵>ᗜ <˵)"
